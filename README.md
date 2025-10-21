@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+🧮 React Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and minimal React Todo Application built as part of my React learning journey.
+This project demonstrates my understanding of React fundamentals, particularly state management, props, and dynamic rendering using array methods.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+Add, view, and delete tasks easily
 
-### `npm start`
+Automatically updates the UI using React’s state system
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Uses map() and filter() for efficient task rendering and management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clean and responsive user interface
 
-### `npm test`
+🧠 What I Learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Through this project, I gained hands-on experience with:
 
-### `npm run build`
+Managing component state using useState
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Passing and receiving data through props
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Rendering lists dynamically and handling conditional rendering
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Using array methods like map(), filter(), and splice() in practical use cases
 
-### `npm run eject`
+Structuring reusable and maintainable React components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧩 Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React.js (Functional Components, Hooks)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+JavaScript (ES6+)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS3 for styling and layout
 
-## Learn More
+⚙️ Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run this project locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Clone the repository
+git clone https://github.com/SIYD-TECH/react-todo-list.git
 
-### Code Splitting
+# Navigate into the project folder
+cd your-repo-name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+npm install
 
-### Analyzing the Bundle Size
+# Start the development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🚀 Future Improvements
 
-### Making a Progressive Web App
+Add filtering (All, Completed, Pending)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Implement task editing functionality
 
-### Advanced Configuration
+Persist data using localStorage or an external API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👨‍💻 Author
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Olurebi Solomon (SIYD)
+Front-End Developer 
+📧 olurebisolomon.email@gmail.com
