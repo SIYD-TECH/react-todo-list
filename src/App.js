@@ -11,7 +11,8 @@ function App() {
 }
 
 function Heading() {
-  return <h1 className="main-heading">TASKFLOW</h1>;
+  return <h1 className="main-heading">TASKFLOW
+  </h1>;
 }
 
 function Container() {
