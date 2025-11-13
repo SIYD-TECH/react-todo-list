@@ -11,7 +11,7 @@ function App() {
 }
 
 function Heading() {
-  return <h1 className="main-heading">TODO LIST</h1>;
+  return <h1 className="main-heading">TASKFLOW</h1>;
 }
 
 function Container() {
@@ -23,7 +23,7 @@ function Container() {
   }
 
   function handleDeleteTask(id) {
-    window.confirm('Are you sure you want to delete this task')
+    window.confirm("Are you sure you want to delete this task");
     setTasks((tasks) => tasks.filter((task) => task.id !== id));
   }
 
@@ -36,8 +36,10 @@ function Container() {
   }
 
   let sortedItems = tasks;
+
   if (filter === "pending")
     sortedItems = tasks.filter((task) => !task.completed);
+
   if (filter === "completed")
     sortedItems = tasks.filter((task) => task.completed);
 
